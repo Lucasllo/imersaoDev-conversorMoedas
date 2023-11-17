@@ -8,7 +8,7 @@ if(moeda == 1) {
     
     var valorEmDolar = prompt("Informe o valor em Dolar");
     var virgula = valorEmDolar.replace("," , ".");
-    var valorEmReal = Number(virgula) * 5.50;
+    var valorEmReal = Number(virgula) * 5.00;
     
     if(isNaN(valorEmReal)){
        document.write("<h2>Informe um valor valido.</h2>")
@@ -20,7 +20,7 @@ if(moeda == 1) {
     
     var valorEmReal = prompt("Informe o valor em Real");
     var virgula = valorEmReal.replace("," , ".");
-    var valorEmDolar = Number(virgula) / 5.50;
+    var valorEmDolar = Number(virgula) / 5.00;
   
     if(isNaN(valorEmDolar)){
        document.write("<h2>Informe um valor valido.</h2>")
@@ -40,7 +40,7 @@ if(moeda == 1) {
     
     var valorEmLibra = prompt("Informe o valor em Libra");
     var virgula = valorEmLibra.replace("," , ".");
-    var valorEmReal = Number(virgula) * 7.50;
+    var valorEmReal = Number(virgula) * 7.00;
   
     if(isNaN(valorEmReal)){
        document.write("<h2>Informe um valor valido.</h2>")
@@ -52,7 +52,7 @@ if(moeda == 1) {
     
     var valorEmReal = prompt("Informe o valor em Real");
     var virgula = valorEmReal.replace("," , ".");
-    var valorEmLibra = Number(virgula) / 7.50;
+    var valorEmLibra = Number(virgula) / 7.00;
   
     if(isNaN(valorEmLibra)){
        document.write("<h2>Informe um valor valido.</h2>")
