@@ -21,14 +21,13 @@ body {
   
   .page-subtitle {
     color: #ffffff;
-    margin-top: 5px;
+    margin-top: 6px;
   }
   
   .page-logo {
     width: 200px;
   }
   
-  .
   
   .alura-logo {
     width: 40px;
@@ -46,5 +45,5 @@ body {
     width: 145px;
     text-align:center;
     background-color: white;
-    color: black;
+    color: rgb(141, 7, 7);
   }
